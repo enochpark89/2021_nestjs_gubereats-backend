@@ -352,3 +352,13 @@ import { Restaurant } from './entities/restaurant.entity';
 - ArgType basically allows you to define @Fields as each seperate argument.
 - InputType is like one obj that you pass to the graphQL as an argument. 
 
+# 1.5 Validating ArgsTypes
+
+- We can use *class validators* in the DTOs.
+
+1. Install class validators.
+```shell
+npm i class-validator
+```
+
+2. 
